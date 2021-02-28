@@ -1,5 +1,5 @@
 /*****
- * Edit this line to have your name.
+ Varshith Poonati
  ******/
 public class GitDemo {
     
@@ -14,7 +14,8 @@ public class GitDemo {
     *****/
     public double addNumber(double num) {
         System.out.print("Add num to previousNumber");
-        return 0;
+        double addedNum= num+previousNumber;
+        return addedNum;
     }
     
     /*****
@@ -41,12 +42,13 @@ public class GitDemo {
      *****/
     public double reverseNumber(int num){
         double newNumber = 1;
-        
+     private double reverseNum;
         for(int i = 1; i <= num; ++i){
             newNumber = newNumber * i;
         }
         
         return newNumber;
+        reverseNum=newNumber;
     }
     
 }
